@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 65px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
+}
+
+nav a:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+nav a {
+  color: #96919f;
+}
+
+main {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 82px;
+}
+
+.text {
+  width: 489px;
+}
+
+.text h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.text h1 strong {
+  font-weight: 700;
+  font-size: 49px;
+  color: #89c5cc;
+}
+
+.text p {
+  width: 438px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 179px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+
+  background: #69b99d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+
+  font-family: "Dm Sans", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4e8974;
+}
+
+footer {
+  width: 592px;
+  margin: auto;
+  height: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+p a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.bolinhas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
